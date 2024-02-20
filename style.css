@@ -1,0 +1,203 @@
+
+ :root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.principal {
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 8px;
+    padding: 1em;
+    text-decoration: none;
+    color: var(--branco-principal);
+    display: block;
+    margin-bottom: 1em;
+}
+.container__botao__secundario {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid var(--branco-principal);
+    padding: 1em;
+    text-decoration: none;
+    color: var(--branco-principal);
+    display: block;
+    margin-bottom: 1em;
+}
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+.container__caixa {
+    margin: 0 6em;
+}
+.secundaria__imagem {
+    width: 70%;
+
+}
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+.descricao__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom:  0.230em;
+}
+.descricao__paragrafo {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+}
+.terciario {
+    align-items: center;
+    margin: 0 10em;
+}
+.terciario__apresentacao__paragrafo {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+}
+.terciario__apresentacao__link {
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background-color: var(--botao-azul);
+    padding: 16px 12.68px 16px 16px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 1em;   
+}
+.terciario__apresentacao{
+    padding: 0 70px 0 0;
+}
+.terciario__imagem {
+    width: 496px;
+    height: 338.96px;
+    
+}
+.quarto {
+    align-items: center;
+    margin: 0 10em;
+}
+.quarto__apresentacao__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 700;
+}
+.quarto__apresentacao__paragrafo {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+}
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.dispositivos {
+    text-align: center;
+}
+.dispositivos__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+.lista__item {
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.rodape {
+    text-align: center;
+    margin:  145px 99px;
+    margin-bottom: 99px;
+}
+.rodape__lista {
+    display: flex;
+    gap:16px;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 40.72px;
+
+}
+.lista__links {
+    text-decoration: none;
+    color: var(--cinza-secundario);
+}
+.lista__links__link {
+    text-decoration: none;
+    color: var(--cinza-secundario);
+}
+.rodape__logo {
+    width: 102px;
+    height: 35px;
+    
+
+}
+.rodape__texto {
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--cinza-secundario);
+    margin-top: 24px;
+}
+.lista__links a:hover {
+    color: var(--botao-azul);
+}
+.container__botao:hover{
+    background-color: #3C92FA;
+}
+.terciario__apresentacao__link:hover {
+    background-color: #3C92FA;
+}
+.container__botao__secundario:hover{
+    background-color: hsl(0, 0%, 19%);
+
+
+}
+
+
